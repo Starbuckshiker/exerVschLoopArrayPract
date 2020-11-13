@@ -1,5 +1,5 @@
 var officeItems = ["stapler", "monitor", "computer", "desk", "lamp", "computer", "lamp", "stapler", "computer", "computer"]
-var count = (officeItems.match(/"computer"/g)) || []).length;
+var count = (officeItems.match(/"computer"/g)) || [].length;
 console.log(count);
 
 
@@ -30,7 +30,8 @@ console.log(count);
           for(let x = 0; x < people.length; x++) {
             if(people[x].age >= 18){
                console.log(people[x].name + " Is Old Enough");
-            }else {
+            }
+            else {
                console.log(people[x].name + " Is Not Old Enough");
             } 
        }
