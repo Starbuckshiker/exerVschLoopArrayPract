@@ -1,10 +1,10 @@
 var officeItems = ["stapler", "monitor", "computer", "desk", "lamp", "computer", "lamp", "stapler", "computer", "computer"]
-var count = (officeItems.match(/computer/g)) || []).length;
+var count = (officeItems.match(/"computer"/g)) || []).length;
 console.log(count);
 
 
 
-        var peopleWhoWantToSeeMadMaxFuryRoad = [
+        var people = [
             {
               name: "Mike",
               age: 12,
