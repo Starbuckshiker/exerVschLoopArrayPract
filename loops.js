@@ -1,6 +1,10 @@
 var officeItems = ["stapler", "monitor", "computer", "desk", "lamp", "computer", "lamp", "stapler", "computer", "computer"]
-var count = (officeItems.match(/computer/g) || []).length;
-count = (str.match(/computer/g) || []).length;
+var count = 0; 
+for(var i = 0; i < officeItems.length; ++i){
+  if(officeItems[i] == "computer")
+  count++;
+}
+//count = (str.match(/computer/g) || []).length;
 console.log(count);
 
 
