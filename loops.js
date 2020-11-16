@@ -41,10 +41,18 @@ console.log(count);
             } 
        }
 
-
-
-
-
+var lightSwitch = {
+  switch: [2,3,2],
+  switch2: [1,2,3,4]
+}
+for(var i = 0; i < lightSwitch.length; ++i){
+       if( lightSwitch.lenth == 2) {    
+        console.log("The light is On") 
+        } 
+        else { 
+            console.log("The light is off");
+        } break;
+      }
 
 
 
